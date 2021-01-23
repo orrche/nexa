@@ -1,0 +1,17 @@
+# See: http://code.google.com/p/arduino/wiki/Platforms
+
+menu.cpu=Processor
+
+
+mynano.name=MySensorboard
+
+mynano.build.f_cpu=16000000L
+mynano.build.board=AVR_NANO
+mynano.build.core=arduino
+mynano.build.variant=eightanaloginputs
+
+## Arduino Nano w/ ATmega328P
+## --------------------------
+mynano.menu.cpu.atmega328.build.mcu=atmega328p
+
+##############################################################
